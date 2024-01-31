@@ -1,7 +1,7 @@
 // given a string that represents Roman numeral write a program to convert it into integers in JavaScript
 
 let str = "MCMIVDLXV";
-
+//roman to integer number
 // function ChangeRomanToInt(str) {
 //   const rn = {
 //     I: 1,
@@ -12,13 +12,10 @@ let str = "MCMIVDLXV";
 //     D: 500,
 //     M: 1000,
 //   };
-
 //   let answer = 0;
-
 //   for (let i = 0; i < str.length; i++) {
 //     const curr = rn[str[i]];
 //     const next = rn[str[i + 1]];
-
 //     if (next > curr) {
 //       let data = next - curr;
 //       answer += data;
@@ -29,12 +26,16 @@ let str = "MCMIVDLXV";
 //       // console.log(answer);
 //     }
 //   }
-
 //   return answer;
 //   // console.log(answer);                                              
 // }
 // console.log(ChangeRomanToInt(str));
 // // 
+
+
+
+
+//integer to roman number
 
 let num = 3;
 
