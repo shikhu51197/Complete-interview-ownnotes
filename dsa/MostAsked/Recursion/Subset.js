@@ -13,7 +13,6 @@ function subsets(nums) {
       if (i === nums.length) {
         return result.push([...temp]);
       }
-  
       temp.push(nums[i]);
       recursiveSubsets(nums, i + 1);
       temp.pop();
@@ -23,5 +22,4 @@ function subsets(nums) {
     recursiveSubsets(nums, 0);
     return result;
   }
-  
   console.log(subsets([1]));

@@ -1,4 +1,3 @@
-
 // Expressjs
 // Q1. How does Express.js handle middleware?
 // Express.js is a routing and Middleware framework for handling the different routing of the webpage and it works between the request and response cycle. Middleware gets executed after the server receives the request and before the controller actions send the response.
@@ -31,7 +30,7 @@
 // Q7. Write a code to get post a query in Express.js.
 // POST parameter can be received from a form using express.urlencoded() middleware and the req.body Object. The express.urlencoded() middleware helps to parse the data that is coming from the client-side.
 
-// Syntax:  
+// Syntax:
 
 //  express.urlencoded( [options] )
 // Q8. What do you understand by Scaffolding in Express.js?
